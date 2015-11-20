@@ -1,8 +1,9 @@
 from __future__ import unicode_literals
+import importlib
+
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
 from django import template
-from django.utils import importlib
 from django.utils import six
 
 
